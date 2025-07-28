@@ -1,0 +1,143 @@
+
+.info-page {
+    max-width: 900px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .info-page-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-page-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+
+  .info-section {
+    margin-bottom: 40px;
+  }
+  
+  .info-section-title {
+    font-size: 2rem;
+    color: #34495e;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+  }
+  
+
+  .offer-type {
+    margin-bottom: 30px;
+  }
+  
+  .offer-type-title {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+  }
+  
+  .offer-type-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .offer-type-components {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+
+  .rules-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+  .rules-list li {
+    margin-bottom: 10px;
+  }
+
+  .example {
+    margin-bottom: 20px;
+  }
+  
+  .example-title {
+    font-size: 1.3rem;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  .example-details {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    font-size: 1.2rem;
+    color: #e67e22;
+    margin-bottom: 10px;
+  }
+  
+  .faq-answer {
+    font-size: 1rem;
+    color: #555;
+    margin-left: 20px;
+  }
+  
+
+  .contact-support-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details {
+    list-style-type: none;
+    padding: 0;
+    color: #555;
+  }
+  
+  .contact-details li {
+    margin-bottom: 10px;
+  }
+
+
+.info-page-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .nav-link {
+    color: #c19755;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #c19755;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-link:hover {
+    background-color: #c19755;
+    color: #fff;
+  }

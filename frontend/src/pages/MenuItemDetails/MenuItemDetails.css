@@ -1,0 +1,163 @@
+
+.menu-item-details {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.breadcrumb {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #49557e;
+  }
+  
+  .breadcrumb a {
+    color: #49557e;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .recommended-items {
+    margin-top: 40px;
+  }
+  
+  .recommended-items h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .recommended-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .recommended-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .recommended-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .recommended-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .recommended-info {
+    padding: 15px;
+  }
+  
+  .recommended-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .recommended-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+.details-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.item-image {
+  width: 50%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.item-info .price {
+  font-size: 1.5rem;
+  color: tomato;
+  margin-bottom: 20px;
+}
+
+.item-info .description {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.recommended-items {
+  margin-top: 40px;
+}
+
+.recommended-items h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.recommended-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.recommended-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.recommended-item:hover {
+  transform: translateY(-5px);
+}
+
+.recommended-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recommended-info {
+  padding: 15px;
+}
+
+.recommended-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.recommended-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+@media (max-width: 768px) {
+  .details-container {
+    flex-direction: column;
+  }
+
+  .item-image {
+    width: 100%;
+  }
+}

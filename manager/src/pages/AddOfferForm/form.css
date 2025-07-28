@@ -1,0 +1,271 @@
+
+.edit-menu-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  border-radius: 10px;
+ 
+}
+.form-label {
+  display: block;
+  margin-left: 50px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+.edit-menu-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-menu-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #c19755;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+input[type="file"].form-input {
+  padding: 8px;
+  background-color: #fff;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #c19755;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #c19755;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 768px) {
+  .edit-menu-container {
+    padding: 15px;
+  }
+
+  .edit-menu-header {
+    font-size: 20px;
+  }
+
+  .form-input {
+    font-size: 14px;
+  }
+
+  .form-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.checkbox-container {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.checkbox-container input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none; 
+}
+
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #c19755;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  background-color: #c19755;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.checkbox-container input[type="checkbox"]:checked + .custom-checkbox::after {
+  opacity: 1;
+}
+
+
+.checkbox-container:hover .custom-checkbox {
+  border-color: #c19755;
+}
+
+.tab-container {
+  display: flex;
+  gap: 20px;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 60px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+  background-color: #c19755;
+  color: white;
+}
+
+.tab-button:hover {
+  background-color: #b69d4b;
+  color: white;
+}
+
+
+.form-container {
+  max-width: 600px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+
+.form-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #c19755;
+}
+
+
+.form-button {
+  width:560px;
+  padding: 10px 20px;
+  background-color: #c19755;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #c19755;
+}
+
+.select-container{
+  width: 560px;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+}
+
+.success-icon {
+  color: green;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+.image-size {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  margin-left: 7rem;
+  color: #666;
+}
